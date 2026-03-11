@@ -205,3 +205,32 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+
+# R
+.Rhistory
+.Rapp.history
+.RData
+.Ruserdata
+.Rproj.user/
+*.Rproj
+
+# R package/build/check artifacts
+.Rcheck/
+*.Rcheck/
+check/
+Meta/
+man/*.Rd~
+vignettes/*.html
+.Rbuildignore
+
+# Heavy R serialized outputs
+/results/**/*.rds
