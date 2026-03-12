@@ -5,7 +5,7 @@ library(brms)
 # 1. Load data
 # -----------------------------------------------------------------------------
 # Read the Arabic dataset used for the offset model.
-df <- read_csv2("processed_data/arabic-offset-data.csv")
+df <- read_csv2("processed_data/arabic_offset-data.csv")
 
 # -----------------------------------------------------------------------------
 # 2. Basic cleaning and type conversion

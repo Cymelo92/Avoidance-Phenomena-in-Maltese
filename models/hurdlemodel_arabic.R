@@ -5,7 +5,7 @@ library(brms)
 # Load data
 # -----------------------------------------------------------------------------
 # Read the dataset used for the Arabic hurdle model.
-all_pairs <- read_csv2("processed_data/arabic-hurdle-data.csv")
+all_pairs <- read_csv2("processed_data/arabic_hurdle-data.csv")
 
 # -----------------------------------------------------------------------------
 # Prepare variables for modeling

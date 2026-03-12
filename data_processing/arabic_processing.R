@@ -3,7 +3,7 @@ library(tidyverse)
 # -----------------------------------------------------------------------------
 # Load source data
 # -----------------------------------------------------------------------------
-wehr <- read_tsv("raw_data/wehr-arabic.csv")
+wehr <- read_csv("raw_data/wehr-arabic.csv")
 
 # For using the same processing functions
 source("data_processing/maltese_processing.R")
@@ -78,6 +78,7 @@ arabic_roots <-
     )
   ) |> 
   select(-ArabicWord) |> 
+  distinct() |> 
   rename_with(~ paste0(.x, "_curr"))
 
 # -----------------------------------------------------------------------------

@@ -13,7 +13,6 @@ C1_curr,C2_curr,C3_curr
 ʔ,θ,l
 ʔ,θ,m
 ʔ,dʒ,r
-ʔ,dʒ,r
 ʔ,dʒ,l
 ʔ,dʒ,n
 ʔ,ħ,d
@@ -23,7 +22,6 @@ C1_curr,C2_curr,C3_curr
 ʔ,x,r
 ʔ,x,w
 ʔ,d,b
-ʔ,d,m
 ʔ,d,m
 ʔ,d,j
 ʔ,ð,ʔ
@@ -40,7 +38,6 @@ C1_curr,C2_curr,C3_curr
 ʔ,r,q
 ʔ,r,m
 ʔ,r,j
-ʔ,r,j
 ʔ,z,b
 ʔ,z,r
 ʔ,z,f
@@ -54,7 +51,6 @@ C1_curr,C2_curr,C3_curr
 ʔ,s,f
 ʔ,s,l
 ʔ,s,m
-ʔ,s,n
 ʔ,s,n
 ʔ,s,w
 ʔ,s,j
@@ -124,7 +120,6 @@ C1_curr,C2_curr,C3_curr
 ʔ,j,n
 ʔ,j,h
 b,ʔ,r
-b,ʔ,r
 b,ʔ,z
 b,ʔ,s
 b,ʔ,ʃ
@@ -164,7 +159,6 @@ b,ð,ʔ
 b,ð,x
 b,ð,r
 b,ð,l
-b,r,ʔ
 b,r,ʔ
 b,r,dʒ
 l,ʕ,b
@@ -370,8 +364,6 @@ t,j,h
 θ,m,l
 θ,m,n
 θ,n,j
-θ,ʔ,b
-θ,ʔ,r
 θ,w,l
 θ,w,m
 θ,w,j
@@ -485,7 +477,6 @@ dʒ,w,t
 dʒ,ʔ,ħ
 dʒ,w,x
 dʒ,ʔ,d
-dʒ,ʔ,r
 dʒ,w,z
 dʒ,w,s
 dʒ,ʔ,ʕ
@@ -496,7 +487,6 @@ dʒ,w,j
 dʒ,j,b
 dʒ,j,d
 dʒ,j,r
-dʒ,ʔ,ʃ
 dʒ,ʔ,f
 j,k,j
 dʒ,j,l
@@ -606,7 +596,6 @@ m,ħ,l
 ħ,l,k
 ħ,l,m
 ħ,l,w
-ħ,m,ʔ
 ħ,m,ʔ
 ħ,m,d
 ħ,m,r
@@ -722,13 +711,11 @@ x,dˤ,ʕ
 x,dˤ,l
 x,dˤ,m
 x,tˤ,ʔ
-x,tˤ,ʔ
 x,tˤ,b
 x,tˤ,r
 x,tˤ,f
 x,tˤ,l
 x,tˤ,m
-x,tˤ,ʔ
 x,f,t
 x,f,r
 x,f,s
@@ -767,7 +754,6 @@ x,w,sˤ
 x,ʔ,dˤ
 x,ʔ,f
 x,w,l
-x,w,j
 x,w,j
 x,ʔ,b
 x,ʔ,s
@@ -912,7 +898,6 @@ j,ð,r
 ð,h,b
 ð,h,l
 ð,h,n
-ð,ʔ,b
 ð,ʔ,d
 ð,ʔ,q
 ð,w,j
@@ -924,11 +909,7 @@ r,ʔ,d
 r,ʔ,s
 r,ʔ,f
 r,ʔ,m
-r,ʔ,m
-r,ʔ,m
 r,ʔ,j
-r,ʔ,j
-r,ʔ,b
 r,b,ʔ
 r,b,t
 r,b,ħ
@@ -940,7 +921,6 @@ r,b,ʕ
 r,b,q
 r,b,k
 r,b,l
-r,b,ʔ
 ʔ,r,t
 r,t,b
 r,t,dʒ
@@ -960,7 +940,6 @@ r,dʒ,ʕ
 r,dʒ,f
 r,dʒ,l
 r,dʒ,m
-r,dʒ,ʔ
 r,dʒ,j
 r,ħ,b
 r,ħ,dˤ
@@ -970,7 +949,6 @@ r,ħ,j
 r,x,sˤ
 r,x,m
 r,x,w
-r,d,ʔ
 r,d,ʔ
 r,d,ħ
 r,d,s
@@ -1039,7 +1017,6 @@ r,f,ʕ
 r,f,q
 r,f,l
 r,f,h
-r,f,ʔ
 r,q,ʔ
 r,q,b
 r,q,d
@@ -1088,7 +1065,6 @@ r,ʔ,θ
 r,ʔ,dʒ
 r,w,dʒ
 r,w,ħ
-r,ʔ,d
 r,w,s
 r,ʔ,dˤ
 r,ʔ,ʕ
@@ -1178,7 +1154,6 @@ z,h,ʔ
 z,w,dʒ
 z,ʔ,ħ
 z,w,d
-z,ʔ,r
 z,w,q
 z,w,l
 z,ʔ,m
@@ -1193,7 +1168,6 @@ z,ʔ,l
 s,ʔ,dʒ
 s,ʔ,r
 s,ʔ,l
-s,ʔ,m
 s,ʔ,m
 s,b,ʔ
 s,b,t
@@ -1303,7 +1277,6 @@ s,l,f
 s,l,q
 s,l,k
 s,l,m
-s,l,ʔ
 s,m,t
 s,m,dʒ
 s,m,ħ
@@ -1352,9 +1325,7 @@ s,j,dʒ
 s,ʔ,ħ
 s,j,x
 s,j,d
-s,ʔ,r
 s,j,f
-s,ʔ,l
 s,j,m
 w,l,ʔ
 s,j,n
@@ -1489,7 +1460,6 @@ s,j,n
 ʃ,ʔ,f
 ʃ,j,q
 ʃ,j,k
-ʃ,ʔ,n
 ʃ,j,n
 sˤ,ʔ,dʒ
 sˤ,ʔ,d
@@ -1501,7 +1471,6 @@ sˤ,b,r
 sˤ,b,ʕ
 sˤ,b,ɣ
 sˤ,b,n
-sˤ,b,ʔ
 sˤ,b,j
 sˤ,ħ,b
 sˤ,ħ,f
@@ -1908,8 +1877,6 @@ tˤ,j,n
 ɣ,j,n
 f,ʔ,t
 f,ʔ,r
-f,ʔ,r
-f,ʔ,s
 f,ʔ,s
 f,ʔ,l
 f,ʔ,n
@@ -1927,7 +1894,6 @@ f,dʒ,ʔ
 f,dʒ,r
 f,dʒ,ʕ
 f,dʒ,l
-f,dʒ,ʔ
 f,ħ,ʃ
 f,ħ,sˤ
 f,ħ,l
@@ -2020,7 +1986,6 @@ f,n,k
 f,n,j
 f,h,d
 f,h,m
-f,ʔ,t
 f,w,dʒ
 f,ʔ,ħ
 f,w,d
@@ -2034,7 +1999,6 @@ f,ʔ,h
 f,j,d
 f,j,ʃ
 f,ʔ,dˤ
-f,ʔ,l
 f,j,l
 f,j,m
 q,ʔ,f
@@ -2186,7 +2150,6 @@ q,ʔ,l
 q,j,n
 k,ʔ,b
 k,ʔ,d
-k,ʔ,d
 k,ʔ,z
 k,ʔ,s
 k,ʔ,f
@@ -2229,7 +2192,6 @@ k,r,m
 k,r,h
 k,r,w
 k,r,j
-k,r,j
 k,s,b
 k,s,ħ
 k,s,d
@@ -2259,7 +2221,6 @@ k,f,l
 k,f,n
 k,f,j
 k,l,ʔ
-k,l,ʔ
 k,l,b
 k,l,t
 k,l,ħ
@@ -2268,7 +2229,6 @@ k,l,s
 k,l,f
 k,l,k
 k,l,m
-k,m,ʔ
 k,m,ʔ
 k,m,b
 k,m,t
@@ -2298,7 +2258,6 @@ k,w,r
 k,ʔ,r
 k,w,z
 k,w,s
-k,ʔ,s
 k,w,ʕ
 k,w,f
 k,w,k
@@ -2311,7 +2270,6 @@ k,j,f
 k,ʔ,l
 k,j,n
 l,ʔ,k
-l,ʔ,m
 l,ʔ,m
 l,ʔ,j
 l,b,θ
@@ -2416,7 +2374,6 @@ l,ʔ,tˤ
 l,ʔ,ʕ
 l,ʔ,f
 l,w,f
-l,ʔ,k
 l,w,n
 l,w,j
 l,j,t
@@ -2527,7 +2484,6 @@ m,l,sˤ
 m,l,tˤ
 m,l,q
 m,l,k
-m,l,ʔ
 m,m,ʔ
 m,m,n
 m,n,ħ
@@ -2546,7 +2502,6 @@ m,ʔ,ʃ
 m,w,q
 m,w,l
 m,w,m
-m,ʔ,n
 m,ʔ,h
 m,j,t
 m,ʔ,ħ
@@ -2559,7 +2514,6 @@ m,ʔ,ʕ
 m,j,l
 n,ʔ,s
 n,ʔ,m
-n,ʔ,j
 n,ʔ,j
 n,b,ʔ
 n,b,t
@@ -2576,7 +2530,6 @@ n,b,ɣ
 n,b,q
 n,b,l
 n,b,h
-n,b,ʔ
 n,t,ʔ
 n,t,dʒ
 n,t,r
@@ -2751,7 +2704,6 @@ n,m,tˤ
 n,m,q
 n,m,l
 n,m,ʔ
-n,m,j
 n,h,b
 n,h,dʒ
 n,h,d
@@ -2776,7 +2728,6 @@ n,w,ʕ
 n,w,f
 n,w,q
 n,ʔ,l
-n,ʔ,m
 n,w,n
 n,w,h
 n,w,j
@@ -2810,7 +2761,6 @@ h,dʒ,ʕ
 h,dʒ,l
 h,dʒ,m
 h,dʒ,n
-h,dʒ,ʔ
 h,d,ʔ
 h,d,b
 h,d,dʒ
@@ -2833,7 +2783,6 @@ h,r,ʕ
 h,r,f
 h,r,q
 h,r,m
-h,r,ʔ
 h,r,j
 h,z,ʔ
 h,z,dʒ
@@ -2865,7 +2814,6 @@ h,m,ʃ
 h,m,ʕ
 h,m,k
 h,m,l
-h,n,ʔ
 h,n,ʔ
 h,n,f
 h,n,m
