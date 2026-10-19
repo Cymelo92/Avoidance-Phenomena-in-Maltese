@@ -2,10 +2,6 @@
 
 This repository contains the **data and analysis code** accompanying [*A New Look at Avoidance Phenomena in Maltese Roots*](https://doi.org/10.5281/zenodo.23450593) by Carlo Y. Meloni and Kellen Parker van Dam (2026).
 
-## About the study
-
-The paper investigates restrictions on the co-occurrence of similar consonants in Maltese roots, comparing **Semitic-origin** and **loanword-derived** roots. It also considers corresponding patterns in **Arabic** and **Italian**. Bayesian hurdle and offset models are used to examine whether consonant pairs occur and how frequently they occur relative to expectation.
-
 ## Repository contents
 
 | Directory | Contents |
@@ -15,10 +11,11 @@ The paper investigates restrictions on the co-occurrence of similar consonants i
 | `data_processing/` | R scripts for preparing roots and a Python script (`build_pairs.py`) for constructing pair datasets. |
 | `models/` | R scripts fitting the Maltese and Arabic Bayesian hurdle and offset models. |
 | `visualizations/` | R scripts for plotting model predictions, contrasts, and diagnostics. |
+| `figures/` | The plots included in the paper. |
 
 ## Reproducing the analyses
 
-The processed datasets are already included, so the models can be fitted without rerunning data preparation. Install **R** with the packages used by the scripts (notably `tidyverse`, `brms`, `posterior`, `marginaleffects`, and `ggdist`), together with a working **Stan** backend.
+The processed datasets are already included, so the models can be fitted without rerunning data preparation. Install **R** with the packages used by the scripts (`tidyverse`, `brms`, `posterior`, and `ggdist`), together with a working **Stan** backend.
 
 From the repository root, run:
 
@@ -34,7 +31,7 @@ The resulting `.rds` model files are saved in `results/`. Once they have been ge
 
 To regenerate the processed data, use the R scripts in `data_processing/` followed by `build_pairs.py`. This additionally requires **Python 3** with `numpy`, `pandas`, `pyclts`, `soundvectors`, and compatible CLTS data. Note that the Maltese preprocessing script's output filenames differ slightly from the supplied processed-data filenames; check these before rebuilding datasets.
 
-**Note:** Fitted model objects are not included in this repository. The model scripts provided here cover Maltese and Arabic; pooled cross-language model-fitting scripts are not included.
+**Note:** Fitted model objects are not included in this repository, because of size limitations.
 
 ## Citation
 
